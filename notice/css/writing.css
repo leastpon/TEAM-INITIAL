@@ -1,0 +1,39 @@
+@charset "utf-8";
+#contents{height:670px;}
+table.tc {width:100%; background:#EEEEEE; border:3px solid #DDDDDD;}
+table.tc thead tr {width:100%; background:#DDDDDD; border-bottom:1px solid #000000;}
+table.tc thead tr th {font-size:1.5em; padding:20px; color:#000000; }
+table.tc tbody tr {background:#EEEEEE; }
+table.tc tbody tr th {width:30%; border-right:1px solid #ACAC9D; font-size:1.0em; color:#333333; vertical-align: Middle;}
+.t1 {width:80%; margin:10px 40px; }
+.t2 {height:100px;}
+.t3 {width:40%;}
+.t4 {margin:10px 0px;}
+.s1 {width:30%; margin:10px 40px;}
+
+.td1{background:#EEEEEE; float:right; margin:10px;}
+.th1{float:left; margin:10px;}
+input{background:#FFFFFF;}
+
+
+@media only screen and (min-width: 769px) {
+#contents{height:680px;}
+.t1 {width:80%; margin:10px 50px; }
+.t2 {height:100px;}
+.t3 {width:50%;}
+.t4 {margin:10px 10px;}
+.s1 {width:20%; margin:10px 50px;}
+
+
+}
+
+@media only screen and (min-width: 961px) {
+#contents{height:690px;}
+.t1 {width:80%; margin:10px 50px; }
+.t2 {height:100px;}
+.t3 {width:58%;}
+.t4 {margin:10px 20px;}
+.s1 {width:15%; margin:10px 50px;}
+
+
+}

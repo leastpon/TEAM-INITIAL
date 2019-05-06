@@ -1,0 +1,43 @@
+
+@charset "utf-8";
+div#contents{
+	height:670px;
+	overflow:hidden;
+}
+.mapbox{
+	width:auto;
+	display:black;
+	overflow:hidden;
+}
+.Nmap{
+	margin:auto; 
+	width:90%;
+}
+.Nmap img{
+width:100%;  
+}
+.waycom{
+	width:90%;
+	height:140px;
+	color:#333333;
+	border-top:10px solid #ffffff;
+	text-align:center;
+	margin:auto;
+}
+.waycom h3{
+	margin-bottom:5px;
+}
+.waycom p{
+	margin-bottom:5px;
+}
+@media only screen and (min-width: 769px) {
+div#contents{
+	height:730px;
+}
+.Nmap{
+margin:auto; 
+width:90%;
+height:300px;
+}
+
+}/* (min-width: 769px) */

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="http://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet" />
+<title>펜션을 찾아 주셔서 감사합니다.</title>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/jquery.mobile-1.0.min.js"></script> 
+<script src="js/slides.js"></script> 
+  
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="js/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">
+    </script>
+    <![endif]--> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slides.css">
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    </style>
+</head>
+
+
+
+
+
+
+<script>
+if(navigator.geolocation) { 
+    navigator.geolocation.getCurrentPosition(showPosition,errorPosition); 
+}
+else {
+    return false;
+    //alert("지오로케이션 서비스는 모바일에서만 사용가능합니다.");
+}
+    
+function showPosition(position)  {
+    //35.863839, 129.257270
+    //var lat = 35.863789;
+    //var lng = 129.257278; 
+  
+    //document.getElementById('lat').value = lat;
+    //document.getElementById('lng').value = lng;
+  
+    var mapAddr = "https://maps.google.com/maps?q="+35.863839+",+"+129.257270+"+(Pension)&iwloc=A&hl=ko"; 
+    document.getElementById('map').href = mapAddr;	
+}
+  
+function errorPosition(error){
+    alert(error.message);
+} 
+</script>

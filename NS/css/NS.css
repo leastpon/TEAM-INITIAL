@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+div#contents section#content h2{
+
+	padding-bottom:10px; font-weight:bold;
+	font-size:1.2em; color:#ffffff;
+}
+div#contents section#content p{margin:0 0 15px 5px; font-size:0.9em;}
+#content img{margin-top:10px; margin-bottom:10px;}
+
+.BigImg{width:100%;}
+.showImg{width:15%; float:left; margin-left:5px;}
+ 
+/*PC대상 및 대형 태블릿 대상 레이아웃 :769px～960px*/
+@media only screen and (min-width: 769px) {
+.showImg{width:15%; margin-left:10px;}
+
+
+/* min-width: 769px */
+
+/*PC대상 레이아웃 지정：961px이상 고정 레이아웃*/
+@media only screen and (min-width: 961px) {
+
+.showImg{width:16%; margin-left:5px;}
+

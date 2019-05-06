@@ -1,0 +1,23 @@
+@charset "utf-8";
+#contents{}
+table.readT {width:100%; background:#EEEEEE; border:3px solid #DDDDDD; margin-bottom:70px;}
+table.readT thead tr {width:100%; background:#EEEEEE; border-bottom:1px solid #000000; float:left; margin:0;}
+table.readT thead tr th{width:10%; height:30px; padding-top:10px; text-align:center;}
+table.readT tbody tr td{width:95%; background:#FFFFFF; padding-top:10px; text-align:center; float:left; margin:10px;}
+
+.read{height:400px;}
+input{float:right; background:#FFFFFF;}
+
+#wr1{margin-top:50px; margin-bottom:50px;}
+
+
+@media only screen and (min-width: 769px) {
+#contents{}
+table.readT tbody tr td{width:97%;}
+
+}
+
+@media only screen and (min-width: 961px) {
+#contents{}
+table.readT tbody tr td{width:98%;}
+}

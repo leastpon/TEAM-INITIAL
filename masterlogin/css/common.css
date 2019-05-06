@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {margin:0; padding:0; font-size:14px; -webkit-text-size-adjust:none;}
+ul, li {list-style-type:none; margin:0; padding:0;}
+a {margin:0; padding:0; text-decoration:none; color:inherit}
+
+/* 마진 */
+.mgt30 {margin-top:30px !important;}
+
+/* 전체 영역*/
+.cntntsView{width: 100%;}
+/* 왼쪽 메뉴 영역 */
+.leftMenuDiv{width: 20%; float: left; height: 800px;}
+/* 내용 영역 */
+.cnttns{width: 80%; height: 500px;}
+/* 버튼 영역 */
+.btnDiv{width: 100%;}
+/* 하단 영역 */
+.footer{width: 100%; height: 100px;}
+
+
+/* 정렬 */
+.al{text-align: left;}
+.ac{text-align: center;}
+.ar{text-align: right;}
+
+/* 왼쪽 메뉴 */
+.lftM { border:1px solid #d3d7dd; border-top:0 }
+.lftM > li{ position:relative; border-top:1px solid #d3d7dd }
+.lftM > li:first-child{ border-top:0 }
+.lftM > li > a {display:block; line-height:130%; padding:10px 20px 10px 16px; font-size:14.5px; color:#333;}
+.lftM > li > a:hover { text-decoration:underline}
+.lftM > li.on > a {color:#3358c2; font-weight:bold}
+.lftM > li.on > a:hover { text-decoration:none}
+
+/* 탭 메뉴 */
+.tabTy01.li5p {position:relative; overflow:hidden; margin:0 0 30px 0px;}
+.tabTy01.li5p li {float:left; width:20%; font-size:13px; text-align:center;} 
+.tabTy01.li5p li a { margin-left:2px; margin-bottom:5px; display:block; background:#fff; border:1px solid #ccc;}
+.tabTy01.li5p li a span {display:block; padding:10px 24px 7px; color:#555; line-height:1; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.tabTy01.li5p li a span:after {content:''; display:inline-block; vertical-align:middle; width:23px; height:23px; margin-left:0px; transition:all .3s ease}
+.tabTy01.li5p li.on a, .tabTy01.li5p li:hover a, .tabTy01.li5p li a:hover {background:#000000; border-color:#000000;}
+.tabTy01.li5p li.on a span, .tabTy01.li5p li:hover a span, .tabTy01.li5p li a:hover span {color:#fff;}
+.tabTy01.li5p li.on a span:after, .tabTy01.li5p li:hover a span:after, .tabTy01.li5p li a:hover span:after {margin-left:10px}
+.tabTy01.li5p li.blank a span:after {content:''; display:inline-block; vertical-align:middle; width:23px; height:23px; margin-left:0px}
+.tabTy01.li5p li.blank.on a span:after, .tabTy01.li5p li.blank:hover a span:after, .tabTy01.li5p li.blank a:hover span:after{ margin-left:0px}
+
+/* 버튼 */
+.btn { display:inline-block; *display:inline; zoom:1; margin:0 5px 5px 0; font-size:14px; color:#fff; line-height:20px; text-align:center; border-radius:3px; vertical-align:middle; -ms-touch-action:manipulation; touch-action:manipulation; border:1px solid transparent; white-space:nowrap; padding:6px 12px}
+.btn:hover {text-decoration:underline;}
+.btn_S {display:inline-block; *display:inline; zoom:1; margin:0; font-size:12px; color:#fff; line-height:20px; text-align:center; border-radius:3px; vertical-align:middle; -ms-touch-action:manipulation; touch-action:manipulation; border:1px solid transparent; white-space:nowrap; padding:0 8px}
+.btn_gry { background-color:#808080; border-color:#808080}
