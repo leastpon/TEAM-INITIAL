@@ -224,5 +224,6 @@ session_start();
 			</div>
 		</footer>
 	<!-- Test -->
+	<!-- Test2 -->
 </body>
 </html>
