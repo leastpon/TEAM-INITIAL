@@ -223,5 +223,6 @@ session_start();
 					tel : 000-0000-0000</p>
 			</div>
 		</footer>
+	<!-- Test -->
 </body>
 </html>
